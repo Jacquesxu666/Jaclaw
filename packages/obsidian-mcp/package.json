@@ -1,0 +1,16 @@
+{
+  "name": "@openclaw/obsidian-mcp",
+  "version": "0.0.0-private",
+  "private": true,
+  "description": "MCP server that saves Claude conversations and notes into an Obsidian vault (stdio or HTTP).",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/server.ts",
+    "./vault": "./src/vault.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "^4.3.6"
+  }
+}
